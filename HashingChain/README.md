@@ -4,7 +4,6 @@
 ## 개요
 해시 테이블에서 서로 다른 키(key)가 동일한 해시 값(hash value)을 갖게 되면 충돌(Collision)이 발생합니다. 이를 해결하기 위한 방법으로 Hashing Chain 기법과 OpenAdress기법(개방주소법) 중 Hahing Chain 기법을 C언어로 구현하여 추가적으로 학습하고자 하였습니다.
 
----
 
 ## 문제 정의 및 필요성
 '알고리즘 분석'강의에서 학습한 Hahing Collision을 해결하는 방식 중 Hahing Chain 기법을 구현하고자 하였습니다.
