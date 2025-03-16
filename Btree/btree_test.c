@@ -327,7 +327,6 @@ void test_btree_for_size(int totalTests) {
     deletion_time = ((double)(end - start)) / CLOCKS_PER_SEC;
     printf("총 %d건 삭제, 걸린 시간: %f 초, 삭제 성공 건수: %d\n", deletionCount, deletion_time, deletionSuccess);
     
-    printf("이론적으로 n=%d이면 log2(n) ≒ %.0f번 연산이 예상됩니다.\n", totalTests, log2(totalTests));
 }
 
 int main(void) {

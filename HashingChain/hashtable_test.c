@@ -9,7 +9,7 @@
 
 typedef struct ty_record {
     char name[300];
-    int monincome;  // 단위: 천원.
+    int monincome;  
     int link;
 } type_record;
 
